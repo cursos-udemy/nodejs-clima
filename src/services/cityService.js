@@ -1,14 +1,14 @@
 const axios = require('axios');
 const colors = require('colors');
 
+const BASE_URL = 'https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php';
+
 const headers = {
     'X-RapidAPI-Key': 'a6ec1a0c0dmsh48b9eaccdade4c9p1b9712jsn92e91ba539f6',
     'X-RapidAPI-Host': 'devru-latitude-longitude-find-v1.p.rapidapi.com'
 };
 
 const timeoutRequest = 5000;
-
-const BASE_URL = 'https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php';
 
 const createAxiosInstance = (url) => {
     const instance = axios.create({
