@@ -21,4 +21,6 @@ https://rapidapi.com/dev132/api/city-geo-location-lookup
 
 API para consulta el clima
 
+https://openweathermap.org
+
 
